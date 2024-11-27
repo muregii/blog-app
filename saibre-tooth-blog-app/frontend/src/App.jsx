@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* Redirect base path "/" to login page */}
+        {/* Redirect base path "/" to login page .. */}
         <Route path="/" element={<Navigate to="/login" />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
